@@ -1,3 +1,4 @@
+import 'package:calorie_count/counter_screen/ui/counter_screen.dart';
 import 'package:calorie_count/home_screen/ui/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'Baloo Bhai 2'),
-     home: HomeScreen(),
+     home: MealSelectionScreen(),
     );
   }
 }

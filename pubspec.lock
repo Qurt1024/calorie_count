@@ -145,7 +145,7 @@ packages:
     source: hosted
     version: "4.1.2"
   image_picker:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: image_picker
       sha256: "784210112be18ea55f69d7076e2c656a4e24949fa9e76429fe53af0c0f4fa320"
@@ -374,5 +374,5 @@ packages:
     source: hosted
     version: "1.1.1"
 sdks:
-  dart: ">=3.10.7 <4.0.0"
+  dart: ">=3.10.1 <4.0.0"
   flutter: ">=3.38.0"
